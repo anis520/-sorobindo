@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header img{
+    height: 350px;
+    width: auto;
+    transition: .7s;
+   
+    
+    
+}
+.header{ transition: .5s;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-left: 80px;
+}
+.header img:hover{
+    transform: translate(-72px);
+    cursor: pointer;
+}
+.header:hover{
+    transform: translate(52px);
+}
+h2{
+    color: aqua;
+    background-color: blueviolet;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 100px;
+    border: 1px solid aqua;
+    box-shadow: 2px 2px 1px 1px rgb(202, 197, 197);
+    
+    padding: 10px;
+
+}
+h2:hover{
+    cursor: pointer;
+}
